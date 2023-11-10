@@ -1,0 +1,5 @@
+package com.kipper.emailservice.controllers;
+
+public class EmailSenderController {
+
+}

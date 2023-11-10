@@ -1,0 +1,12 @@
+package com.kipper.emailservice.application;
+
+import com.kipper.emailservice.core.EmailSenderUseCase;
+
+public class EmailSenderService implements EmailSenderUseCase {
+
+	@Override
+	public void sendEmail(String to, String subject, String body) {
+		
+	}
+
+}

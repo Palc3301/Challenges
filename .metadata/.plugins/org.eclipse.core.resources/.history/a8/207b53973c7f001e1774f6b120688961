@@ -1,0 +1,5 @@
+package com.kipper.emailservice.core;
+
+public class EmailRequest {
+
+}

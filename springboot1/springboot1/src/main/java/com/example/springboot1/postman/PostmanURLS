@@ -1,0 +1,22 @@
+GET
+http://localhost:8080/products
+
+GET{id}
+http://localhost:8080/products/ID
+
+POST
+http://localhost:8080/products
+{
+    "name": "Monitor Dell 27",
+    "value": 4600.00
+}
+
+PUT
+http://localhost:8080/products/id
+{
+    "name": "Dell G15",
+    "value": 4600.00
+}
+
+DELETE
+http://localhost:8080/products/ID
